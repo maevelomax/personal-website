@@ -51,7 +51,7 @@ a {
 /* Welcome Section */
 .welcome-section {
   height: 100vh; /* Full screen height */
-  background-image: url('https://via.placeholder.com/1600x900'); /* Replace with your image URL */
+  background-image: url('https://www.globalnationalparks.com/wp-content/uploads/white-sands-national-park.jpg'); /* Replace with your image URL */
   background-size: cover;
   background-position: center;
   display: flex;
