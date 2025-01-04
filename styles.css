@@ -94,9 +94,12 @@ a {
 
 /* Summary Section */
 .summary-section {
-  padding: 3rem;
-  background-color: #e8e6f1; /* Pastel lavender */
-  color: #5c4033; /* Earthy brown text */
+  
+  background-color: #e7dbc8; /* A light earthy tan tone for contrast */
+  color:  #4a392c; /* Earthy brown text */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
 }
 
 .summary-container {
@@ -111,7 +114,7 @@ a {
 
 .summary-text h2 {
   font-size: 3rem;
-  color: #5c4033;
+  color: #4a392c;
   font-weight: bold;
 }
 
@@ -137,6 +140,7 @@ a {
   max-width: 200px; /* Limit image width */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid #4a392c; /* Brown border to match the theme */
 }
 
 .cta-button {
