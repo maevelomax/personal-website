@@ -48,28 +48,48 @@ a {
   color: #b8b8a8; /* Subtle tan hover effect */
 }
 
-/* Intro Section */
-.intro {
-  height: 100vh;
+/* Welcome Section */
+.welcome-section {
+  height: 100vh; /* Full screen height */
+  background-image: url('https://via.placeholder.com/1600x900'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to bottom right, #b3d9d1, #d6d2c4); /* Soft pastel blue and cream gradient */
-  color: #3b3a36; /* Deep brown text */
   padding: 2rem;
+  background-color: #b3d9d1; /* Soft pastel blue as fallback */
 }
 
-.intro-content h1 {
-  font-size: 2.5rem;
+.welcome-content {
+  background-color: rgba(243, 226, 207, 0.9); /* Transparent tan background */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-content h1 {
+  font-size: 3rem;
   margin-bottom: 1rem;
   color: #2f4a3c; /* Dark earthy green */
 }
 
-.intro-content p {
+.welcome-content p {
   font-size: 1.2rem;
-  margin-bottom: 2rem;
-  color: #4a604b; /* Subtle pastel green */
+  color: #3b3a36; /* Deep brown for text */
+  line-height: 1.8;
+}
+
+.welcome-content a {
+  color: #6d8b73; /* Subtle pastel green */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.welcome-content a:hover {
+  color: #4a604b; /* Earthy green hover effect */
+  text-decoration: underline;
 }
 
 .cta-button {
