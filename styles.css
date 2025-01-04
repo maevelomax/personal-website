@@ -92,6 +92,40 @@ a {
   text-decoration: underline;
 }
 
+/* Summary Section Styles */
+.summary-section {
+  padding: 2rem;
+  background-color: #fefaf0; /* Soft tan background */
+  color: #3b3a36; /* Deep brown text */
+}
+
+.summary-section h2 {
+  font-size: 2.5rem;
+  color: #2f4a3c; /* Earthy green */
+  margin-bottom: 1rem;
+}
+
+.summary-section h3 {
+  font-size: 1.8rem;
+  color: #4a604b; /* Slightly darker green */
+  margin-top: 1.5rem;
+}
+
+.summary-section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.summary-section ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.summary-section ul li {
+  font-size: 1.1rem;
+}
+
 .cta-button {
   padding: 0.8rem 1.5rem;
   background-color: #4a604b; /* Pastel earthy green */
