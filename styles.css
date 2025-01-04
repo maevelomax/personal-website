@@ -95,11 +95,10 @@ a {
 /* Summary Section */
 .summary-section {
   
-  background-color: #e7dbc8; /* A light earthy tan tone for contrast */
+  background-color:#b3d9d1; /* A soft pastel blue */
   color:  #4a392c; /* Earthy brown text */
   padding: 20px;
   border-radius: 10px;
-  margin: 20px 0;
 }
 
 .summary-container {
@@ -135,9 +134,9 @@ a {
 }
 
 .summary-image img {
-  width: 50%;
+  width: 65%;
   height: auto;
-  max-width: 200px; /* Limit image width */
+  max-width: 300px; /* Limit image width */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 2px solid #4a392c; /* Brown border to match the theme */
