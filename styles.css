@@ -8,8 +8,8 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f9;
-  color: #333;
+  background-color: #f3f2ef; /* Light cream background */
+  color: #3b3a36; /* Deep brown text color */
 }
 
 a {
@@ -19,8 +19,8 @@ a {
 
 /* Header and Navigation */
 .header {
-  background: #333;
-  color: #fff;
+  background: #4a604b; /* Pastel earthy green */
+  color: #fefefe; /* White text */
   padding: 1rem 2rem;
   position: sticky;
   top: 0;
@@ -40,12 +40,12 @@ a {
 }
 
 .nav-links a {
-  color: #fff;
+  color: #fefefe;
   transition: color 0.3s;
 }
 
 .nav-links a:hover {
-  color: #ff6347;
+  color: #b8b8a8; /* Subtle tan hover effect */
 }
 
 /* Intro Section */
@@ -55,29 +55,32 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, #4facfe, #00f2fe);
-  color: #fff;
+  background: linear-gradient(to bottom right, #b3d9d1, #d6d2c4); /* Soft pastel blue and cream gradient */
+  color: #3b3a36; /* Deep brown text */
   padding: 2rem;
 }
 
 .intro-content h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  color: #2f4a3c; /* Dark earthy green */
 }
 
 .intro-content p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  color: #4a604b; /* Subtle pastel green */
 }
 
 .cta-button {
   padding: 0.8rem 1.5rem;
-  background-color: #ff6347;
-  color: #fff;
+  background-color: #4a604b; /* Pastel earthy green */
+  color: #fefefe; /* White text */
   border-radius: 5px;
   transition: background-color 0.3s;
 }
 
 .cta-button:hover {
-  background-color: #ff4500;
+  background-color: #6d8b73; /* Slightly lighter green on hover */
 }
+
