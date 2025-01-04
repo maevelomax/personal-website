@@ -92,38 +92,51 @@ a {
   text-decoration: underline;
 }
 
-/* Summary Section Styles */
+/* Summary Section */
 .summary-section {
-  padding: 2rem;
-  background-color: #fefaf0; /* Soft tan background */
-  color: #3b3a36; /* Deep brown text */
+  padding: 3rem;
+  background-color: #e8e6f1; /* Pastel lavender */
+  color: #5c4033; /* Earthy brown text */
 }
 
-.summary-section h2 {
-  font-size: 2.5rem;
-  color: #2f4a3c; /* Earthy green */
-  margin-bottom: 1rem;
+.summary-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
-.summary-section h3 {
-  font-size: 1.8rem;
-  color: #4a604b; /* Slightly darker green */
-  margin-top: 1.5rem;
+.summary-text {
+  flex: 2;
 }
 
-.summary-section p {
+.summary-text h2 {
+  font-size: 3rem;
+  color: #5c4033;
+  font-weight: bold;
+}
+
+.summary-text h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #5c4033;
+  text-decoration: underline;
+}
+
+.summary-text p {
   font-size: 1.2rem;
   line-height: 1.8;
 }
 
-.summary-section ul {
-  list-style-type: disc;
-  margin-left: 1.5rem;
-  line-height: 1.8;
+.summary-image {
+  flex: 1;
 }
 
-.summary-section ul li {
-  font-size: 1.1rem;
+.summary-image img {
+  width: 100%;
+  height: auto;
+  max-width: 400px; /* Limit image width */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .cta-button {
