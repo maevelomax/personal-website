@@ -132,9 +132,9 @@ a {
 }
 
 .summary-image img {
-  width: 100%;
+  width: 50%;
   height: auto;
-  max-width: 400px; /* Limit image width */
+  max-width: 200px; /* Limit image width */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
