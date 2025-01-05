@@ -126,7 +126,7 @@ a {
 
 .summary-text p {
   font-size: 1.2rem;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 .summary-image {
@@ -136,7 +136,7 @@ a {
 }
 
 .summary-image img {
-  width: 85%;
+  width: 95%;
   height: auto;
   max-width: 300px; /* Limit image width */
   border-radius: 8px;
