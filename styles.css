@@ -156,3 +156,53 @@ a {
   background-color: #6d8b73; /* Slightly lighter green on hover */
 }
 
+/* Footer */
+.footer {
+  background-color: #ede9e3; /* Light pastel tan */
+  color: #4a392c; /* Dark brown for text */
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.footer-section h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #4a392c; /* Dark brown */
+}
+
+.footer-section p {
+  font-size: 0.9em;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #4a392c; /* Dark brown */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #6f9e7e; /* Accent earthy green */
+}
+
