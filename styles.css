@@ -136,9 +136,9 @@ a {
 }
 
 .summary-image img {
-  width: 95%;
+  width: 105%;
   height: auto;
-  max-width: 300px; /* Limit image width */
+  max-width: 450px; /* Limit image width */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 2px solid #4a392c; /* Brown border to match the theme */
