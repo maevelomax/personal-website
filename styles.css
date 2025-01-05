@@ -179,6 +179,12 @@ a {
   padding: 0 15px;
 }
 
+.footer-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #2f4a3c; /* Dark earthy green */
+}
+
 .footer-section h3 {
   font-size: 1.2em;
   margin-bottom: 10px;
@@ -200,7 +206,7 @@ a {
 
 .footer-section a {
   text-decoration: none;
-  color: #4a392c; /* Dark brown */
+  color: #C5A880; /* muted matte gold */
   font-weight: bold;
   transition: color 0.3s ease;
 }
