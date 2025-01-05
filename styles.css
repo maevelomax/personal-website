@@ -95,7 +95,7 @@ a {
 /* Summary Section */
 .summary-section {
   
-  background-color:#6d8b73; /* A soft pastel blue */
+  background-color: #e8f5e9; /* Very light pastel green */
   color:  #4a392c; /* Earthy brown text */
   padding: 20px;
   border-radius: 10px;
@@ -109,6 +109,7 @@ a {
 
 .summary-text {
   flex: 2;
+  padding-left: 20px; /* Indent the text slightly */
 }
 
 .summary-text h2 {
@@ -118,7 +119,7 @@ a {
 }
 
 .summary-text h3 {
-  margin-top: 1rem;
+  margin-bottom: 15px;
   font-size: 1.5rem;
   color: #5c4033;
   text-decoration: underline;
@@ -126,11 +127,13 @@ a {
 
 .summary-text p {
   font-size: 1.2rem;
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 .summary-image {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .summary-image img {
