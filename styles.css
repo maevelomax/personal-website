@@ -102,13 +102,16 @@ a {
 
 .summary-container {
   display: flex;
-  align-items: center;
-  gap: 2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
 }
 
 .summary-text {
   flex: 2;
-  padding-left: 20px; /* Indent the text slightly */
+  margin-right: 20px;
+  line-height: 1.6;
+  font-size: 1.1em
 }
 
 .summary-text h2 {
@@ -139,7 +142,7 @@ a {
   width: 105%;
   height: auto;
   max-width: 450px; /* Limit image width */
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 2px solid #4a392c; /* Brown border to match the theme */
 }
@@ -158,8 +161,8 @@ a {
 
 /* Footer */
 .footer {
-  background-color: #ede9e3; /* Light pastel tan */
-  color: #4a392c; /* Dark brown for text */
+  background-color: #4a392c3; /* Light pastel tan */
+  color: #ede9e; /* Dark brown for text */
   padding: 20px 0;
 }
 
